@@ -1358,4 +1358,11 @@
     <!-- If this is true, device supports Sustained Performance Mode. -->
     <bool name="config_sustainedPerformanceModeSupported">true</bool>
 
+
+    <!-- Defines the actions shown in advanced reboot submenu -->
+     <string-array name="config_restartActionsList">
+        <item>restart</item>
+        <item>restart_recovery</item>
+        <item>restart_download</item>
+     </string-array>
 </resources>
